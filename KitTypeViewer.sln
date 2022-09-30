@@ -5,6 +5,16 @@ VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KitTypeViewer", "KitTypeViewer\KitTypeViewer.csproj", "{858DE634-645D-4ADC-9D73-1D9DFBB07872}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5F14CD01-D2E2-4790-8A40-C05BF36367D7}"
+	ProjectSection(SolutionItems) = preProject
+		KitTypeViewer\bin\Release\net6.0\KitTypeViewer.deps.json = KitTypeViewer\bin\Release\net6.0\KitTypeViewer.deps.json
+		KitTypeViewer\bin\Release\net6.0\KitTypeViewer.dll = KitTypeViewer\bin\Release\net6.0\KitTypeViewer.dll
+		KitTypeViewer\bin\Release\net6.0\KitTypeViewer.exe = KitTypeViewer\bin\Release\net6.0\KitTypeViewer.exe
+		KitTypeViewer\bin\Release\net6.0\KitTypeViewer.pdb = KitTypeViewer\bin\Release\net6.0\KitTypeViewer.pdb
+		KitTypeViewer\bin\Release\net6.0\KitTypeViewer.runtimeconfig.json = KitTypeViewer\bin\Release\net6.0\KitTypeViewer.runtimeconfig.json
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
