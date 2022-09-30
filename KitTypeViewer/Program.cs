@@ -86,7 +86,7 @@ static void ListVariousStats(Type t)
     Console.WriteLine("Указанный тип является абстактным? {0}", t.IsAbstract);
     Console.WriteLine("Указанный тип является запечатанным? {0}", t.IsSealed);
     Console.WriteLine("Указанный тип является обобщенным? {0}", t.IsGenericTypeDefinition);
-    Console.WriteLine("'Указанный тип является классом? {0}", t.IsClass);
+    Console.WriteLine("Указанный тип является классом? {0}", t.IsClass);
 
     Console.WriteLine();
 }
