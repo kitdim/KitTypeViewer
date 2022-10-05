@@ -9,7 +9,7 @@
 
             do
             {
-                Console.WriteLine(Messages.EnterNameType);
+                Console.WriteLine("\n" + Messages.EnterNameType);
                 Console.Write(Messages.OrEnterOnQForExit);
 
                 typeName = Console.ReadLine();
