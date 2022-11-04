@@ -119,14 +119,33 @@
   </resheader>
   <data name="EnterNameType" xml:space="preserve">
     <value>\nВведите имя типа</value>
+    <comment>класс Program</comment>
+  </data>
+  <data name="Fields" xml:space="preserve">
+    <value>***** Поля *****</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>***** Подробная информация *****</value>
   </data>
   <data name="Hello" xml:space="preserve">
     <value>***** KitDimViewer *****</value>
+    <comment>класс Program</comment>
+  </data>
+  <data name="Interfaces" xml:space="preserve">
+    <value>***** Интерфейсы *****</value>
+  </data>
+  <data name="Methods" xml:space="preserve">
+    <value>***** Методы *****</value>
   </data>
   <data name="OrEnterOnQForExit" xml:space="preserve">
     <value>или нажмите на Q для завершения:</value>
+    <comment>класс Program</comment>
+  </data>
+  <data name="Properties" xml:space="preserve">
+    <value>***** Свойства *****</value>
   </data>
   <data name="TypeNotFound" xml:space="preserve">
     <value>Указанный тип не найден.</value>
+    <comment>класс Program</comment>
   </data>
 </root>
