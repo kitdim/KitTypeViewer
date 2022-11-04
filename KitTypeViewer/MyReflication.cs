@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace KitTypeViewer
+﻿namespace KitTypeViewer
 {
     static class MyReflication
     {
         public static void ListMethods(Type t)
         {
-            Console.WriteLine("***** Методы *****");
+            Console.WriteLine(Messages.Methods);
 
             var methodNames = from n in t.GetMethods() select n.Name;
             foreach (var name in methodNames)
@@ -22,7 +16,7 @@ namespace KitTypeViewer
 
         public static void ListFields(Type t)
         {
-            Console.WriteLine("***** Поля *****");
+            Console.WriteLine(Messages.Fields);
 
             var fieldNames = from f in t.GetFields() select f.Name;
             foreach (var name in fieldNames)
@@ -34,7 +28,7 @@ namespace KitTypeViewer
 
         public static void ListProp(Type t)
         {
-            Console.WriteLine("***** Свойства *****");
+            Console.WriteLine(Messages.Properties);
 
             var propNames = from p in t.GetProperties() select p.Name;
             foreach (var name in propNames)
@@ -46,7 +40,7 @@ namespace KitTypeViewer
 
         public static void ListInterfaces(Type t)
         {
-            Console.WriteLine("***** Интерфейсы *****");
+            Console.WriteLine(Messages.Interfaces);
 
             var ifaces = from i in t.GetInterfaces() select i;
             foreach (var name in ifaces)
@@ -58,7 +52,7 @@ namespace KitTypeViewer
 
         public static void ListVariousStats(Type t)
         {
-            Console.WriteLine("***** Различная статистика *****");
+            Console.WriteLine(Messages.FullName);
 
             Console.WriteLine("Базовый класс: {0}", t.BaseType);
             Console.WriteLine("Указанный тип является абстактным? {0}", t.IsAbstract);
