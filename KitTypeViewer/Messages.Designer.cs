@@ -70,6 +70,24 @@ namespace KitTypeViewer {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to ***** Поля *****.
+        /// </summary>
+        internal static string Fields {
+            get {
+                return ResourceManager.GetString("Fields", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ***** Подробная информация *****.
+        /// </summary>
+        internal static string FullName {
+            get {
+                return ResourceManager.GetString("FullName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to ***** KitDimViewer *****.
         /// </summary>
         internal static string Hello {
@@ -79,11 +97,38 @@ namespace KitTypeViewer {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to ***** Интерфейсы *****.
+        /// </summary>
+        internal static string Interfaces {
+            get {
+                return ResourceManager.GetString("Interfaces", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ***** Методы *****.
+        /// </summary>
+        internal static string Methods {
+            get {
+                return ResourceManager.GetString("Methods", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to или нажмите на Q для завершения:.
         /// </summary>
         internal static string OrEnterOnQForExit {
             get {
                 return ResourceManager.GetString("OrEnterOnQForExit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ***** Свойства *****.
+        /// </summary>
+        internal static string Properties {
+            get {
+                return ResourceManager.GetString("Properties", resourceCulture);
             }
         }
         
