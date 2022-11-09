@@ -23,4 +23,4 @@
 - MyTypeViewer.Program
 ***
 ## Установка и запуск:
-Необходимо установить и запустить Visual Studio, далее скачать с гитхаба проект, затем распаковать его, и в Visual Studio отрыть файл KitTypeViewer.sln
+Необходимо установить и запустить Visual Studio, далее скачать с гитхаба проект, затем распаковать его, и в Visual Studio отрыть файл KitTypeViewer.sln или KitTypeViewer.exe
